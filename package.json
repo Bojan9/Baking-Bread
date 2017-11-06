@@ -1,0 +1,22 @@
+{
+  "name": "happyres",
+  "version": "1.0.0",
+  "description": "Happy Restaurant wbsite",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bojan9/Happy-Restaurant.git"
+  },
+  "author": "Bojan Spasovski, Aleksandar Kostadinovski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bojan9/Happy-Restaurant/issues"
+  },
+  "homepage": "https://github.com/Bojan9/Happy-Restaurant#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
