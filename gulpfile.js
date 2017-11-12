@@ -15,7 +15,9 @@ var gulp = require('gulp'),
     notify = require('gulp-notify'),
     cache = require('gulp-cache'),
     livereload = require('gulp-livereload'),
-    del = require('del');
+    del = require('del'),
+    gutil = require('gulp-util'),
+    ftp = require('gulp-ftp');
 
 // Styles
 gulp.task('styles', function() {
@@ -47,15 +49,37 @@ gulp.task('images', function() {
     .pipe(notify({ message: 'Images task complete' }));
 });
 
+
+
+gulp.task('html', function() {
+  return gulp.src('src/**/*.html')
+    .pipe(gulp.dest('build'))
+    .pipe(notify({ message: 'Html' }));
+});
+
 // Clean
 gulp.task('clean', function() {
-  return del(['build/styles', 'build/scripts', 'build/images']);
+  return del(['build/index.html' ,'build/html', 'build/styles', 'build/scripts', 'build/images']);
 });
 
 // Default task
 gulp.task('default', ['clean'], function() {
-  gulp.start('styles', 'scripts', 'images');
+  gulp.start('html', 'styles', 'scripts', 'images');
 });
+
+
+gulp.task('ftp', function(){
+    return gulp.src('build/*')
+        .pipe(ftp({
+            host: 'ha-re.kostadinovski.info',
+            user: 'test-acika',
+            pass: 'Bojan123!'
+        }))
+        // you need to have some kind of stream after gulp-ftp to make sure it's flushed
+        // this can be a gulp plugin, gulp.dest, or any kind of stream
+        // here we use a passthrough stream
+        .pipe(gutil.noop());
+})
 
 // Watch
 gulp.task('watch', function() {
