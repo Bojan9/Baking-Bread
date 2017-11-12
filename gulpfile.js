@@ -8,7 +8,6 @@ var gulp = require('gulp'),
     sass = require('gulp-ruby-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     cssnano = require('gulp-cssnano'),
-    jshint = require('gulp-jshint'),
     uglify = require('gulp-uglify'),
     imagemin = require('gulp-imagemin'),
     rename = require('gulp-rename'),
@@ -32,10 +31,8 @@ gulp.task('styles', function() {
 // Scripts
 gulp.task('scripts', function() {
   return gulp.src('src/js/**/*.js')
-    .pipe(jshint('.jshintrc'))
-    .pipe(jshint.reporter('default'))
     .pipe(concat('main.js'))
-    .pipe(gulp.dest('dist/scripts'))
+    .pipe(gulp.dest('build/scripts'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(uglify())
     .pipe(gulp.dest('build/scripts'))
@@ -75,7 +72,7 @@ gulp.task('watch', function() {
   // Create LiveReload server
   livereload.listen();
 
-  // Watch any files in dist/, reload on change
+  // Watch any files in build/, reload on change
   gulp.watch(['build/**']).on('change', livereload.changed);
 
 });
