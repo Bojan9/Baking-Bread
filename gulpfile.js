@@ -92,18 +92,12 @@ gulp.task('ftp', function(){
 gulp.task('watch', function() {
 
   // Watch .scss files
-  gulp.watch('src/styles/**/*.scss', ['styles']);
-
-  // Watch .js files
-  gulp.watch('src/scripts/**/*.js', ['scripts']);
-
-  // Watch image files
-  gulp.watch('src/images/**/*', ['images']);
-
-  // Create LiveReload server
-  livereload.listen();
-
-  // Watch any files in build/, reload on change
-  gulp.watch(['build/**']).on('change', livereload.changed);
+  gulp.watch('src/sass/*.scss', ['sass']);
+//
+//  // Watch .js files
+//  gulp.watch('src/scripts/**/*.js', ['scripts']);
+//
+//  // Watch image files
+//  gulp.watch('src/images/**/*', ['images']);
 
 });

@@ -11,8 +11,8 @@
   .container__box {
     width: 200px;
     height: 200px;
-    background: green;
-    border: 1px solid blue; }
+    background: orange;
+    border: 1px solid black; }
     .container__box--square {
       width: 30px;
       height: 30px; }
