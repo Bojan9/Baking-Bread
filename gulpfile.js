@@ -43,7 +43,7 @@ gulp.task('scripts', function() {
 
 // Images
 gulp.task('images', function() {
-  return gulp.src('src/images/**/*')
+  return gulp.src('src/img/**/*')
     .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
     .pipe(gulp.dest('build/images'))
     .pipe(notify({ message: 'Images task complete' }));
