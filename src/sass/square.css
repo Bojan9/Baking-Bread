@@ -1,0 +1,24 @@
+.bold, .container__box--square {
+  font-weight: bolder;
+  font-size: 40px;
+  line-height: 30px;
+  color: antiquewhite; }
+
+.container {
+  width: 600px;
+  height: 400px;
+  background: red; }
+  .container__box {
+    width: 200px;
+    height: 200px;
+    background: green;
+    border: 1px solid blue; }
+    .container__box--square {
+      width: 30px;
+      height: 30px; }
+    .container__box-content--paragraf {
+      color: red;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      border-radius: 20px; }

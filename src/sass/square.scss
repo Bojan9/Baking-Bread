@@ -1,0 +1,38 @@
+.bold {
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 30px;
+    color: antiquewhite;
+}
+
+@mixin border($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    background: red;
+
+    &__box {
+        width: 200px;
+        height: 200px;
+        background: green;
+        border: 1px solid blue;
+
+        &--square {
+            width: 30px;
+            height: 30px;
+            @extend .bold;
+        }
+        &-content {
+            &--paragraf {
+                color: red;
+                @include border(20px);
+            }
+        }
+    }
+}

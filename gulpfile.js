@@ -5,7 +5,7 @@
 
 // Load plugins
 var gulp = require('gulp'),
-    sass = require('gulp-ruby-sass'),
+    sass = require('gulp-sass');
     autoprefixer = require('gulp-autoprefixer'),
     cssnano = require('gulp-cssnano'),
     uglify = require('gulp-uglify'),
@@ -21,13 +21,20 @@ var gulp = require('gulp'),
 
 // Styles
 gulp.task('styles', function() {
-  return sass('src/ssss/main.scss', { style: 'expanded' })
+  return sass('src/sass/square.scss', { style: 'expanded' })
     .pipe(autoprefixer('last 2 version'))
     .pipe(gulp.dest('build/styles'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(cssnano())
     .pipe(gulp.dest('build/styles'))
     .pipe(notify({ message: 'Styles task complete' }));
+});
+
+
+gulp.task('sass', function () {
+  return gulp.src('src/sass/*.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('src/sass/'));
 });
 
 // Scripts
