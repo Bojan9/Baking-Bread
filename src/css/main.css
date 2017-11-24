@@ -18,11 +18,19 @@
     float: left;
     background-color: white;
 }
+.kocka{
+    position: absolute;
+        width: 30px;
+    height: 30px;
+    background-color: white;
+    transform: rotate(45deg);
+}
 
 .text {
     width: 300px;
     height: 300px;
     float: left;
+    position: relative;
 }
 
 .border-right {
@@ -43,37 +51,21 @@
 }
 
 .kocka-right {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    left: 285px;
+    right: -16px;
     top: 135px;
-    transform: rotate(45deg);
     border-top: solid 1px red;
     border-right: solid 1px red;
 }
 
 .kocka-top {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    left: 135px;
-    bottom: 15px;
-    transform: rotate(45deg);
+    right: 135px;
     border-top: solid 1px red;
     border-left: solid 1px red;
 }
 
 .kocka-left {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    top: 135px;
-    right: 15px;
-    transform: rotate(45deg);
+    top:135px;
+    left: -16px;
     border-bottom: solid 1px red;
     border-left: solid 1px red;
 }
