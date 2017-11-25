@@ -1,39 +1,79 @@
-.bold {
-    font-weight: bolder;
-    font-size: 40px;
-    line-height: 30px;
-    color: antiquewhite;
-}
-
-@mixin border($radius) {
-    -webkit-border-radius: $radius;
-    -moz-border-radius: $radius;
-    -ms-border-radius: $radius;
-    border-radius: $radius;
-}
-
 .container {
-    width: 600px;
-    height: 400px;
-    background: red;
+    width: 901px;
+    height: 600px;
+    background-color: white;
+    float: left;
 
     &__box {
-        width: 200px;
-        height: 200px;
-        background: orange;
-        border: 1px solid black;
-
-        &--square {
-            width: 30px;
-            height: 30px;
-            @extend .bold;
-        }
-
-        &-content {
-            &--paragraf {
-                color: red;
-                @include border(20px);
-            }
-        }
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        float: left;
+        position: relative;
     }
-}
+    &__square {
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        float: left;
+        transform: rotate(45deg);
+        position: absolute;
+    }
+
+    .right {
+        right: -16px;
+        top: 135px;
+        border-top: solid 1px red;
+        border-right: solid 1px red;
+    }
+
+    .top {
+        right: 135px;
+        top: -16px;
+        border-top: solid 1px red;
+        border-left: solid 1px red;
+    }
+
+    .left {
+        top: 135px;
+        left: -16px;
+        border-bottom: solid 1px red;
+        border-left: solid 1px red;
+    }
+
+    .border_right {
+        border-right: solid 1px red;
+    }
+
+    .border_top {
+        border-top: solid 1px red;
+    }
+
+    .border_left {
+        border-left: solid 1px red;
+    }
+    .header {
+        width: 270px;
+        height: 85px;
+        float: left;
+        z-index: 6;
+        padding-top: 15px;
+        padding-left: 30px;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px grey;
+        font-family: serif;
+        font-size: 20px;
+        color: grey;
+        opacity: 0.6;
+    }
+
+    .text {
+        width: 250px;
+        height: 200px;
+        float: left;
+        z-index: 6;
+        padding-left: 30px;
+        padding-right: 20px;
+        font-family: sans-serif;
+        opacity: 0.8;
+    }
