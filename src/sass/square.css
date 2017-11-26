@@ -1,62 +1,43 @@
 .container {
-    width: 901px;
-    height: 600px;
-    background-color: white;
-    float: left;
-}
-
-.container__box {
+  width: 901px;
+  height: 600px;
+  background-color: white;
+  float: left; }
+  .container__box {
     width: 300px;
     height: 300px;
     background-color: white;
     float: left;
-    position: relative;
-}
-
-.container__box--square {
+    position: relative; }
+  .container__square {
     width: 30px;
     height: 30px;
     background-color: white;
     float: left;
     transform: rotate(45deg);
-    position: absolute;
-    z-index: 5;
-}
-
-.right {
+    position: absolute; }
+  .container .right {
     right: -16px;
     top: 135px;
     border-top: solid 1px red;
-    border-right: solid 1px red;
-}
-
-.top {
+    border-right: solid 1px red; }
+  .container .top {
     right: 135px;
     top: -16px;
     border-top: solid 1px red;
-    border-left: solid 1px red;
-}
-
-.left {
+    border-left: solid 1px red; }
+  .container .left {
     top: 135px;
     left: -16px;
     border-bottom: solid 1px red;
-    border-left: solid 1px red;
-}
-
-.border_right {
-    border-right: solid 1px red;
-}
-
-.border_top {
-    border-top: solid 1px red;
-}
-
-.border_left {
-    border-left: solid 1px red;
-}
-
-.header {
+    border-left: solid 1px red; }
+  .container .border_right {
+    border-right: solid 1px red; }
+  .container .border_top {
+    border-top: solid 1px red; }
+  .container .border_left {
+    border-left: solid 1px red; }
+  .container .header {
     width: 270px;
     height: 85px;
     float: left;
@@ -68,10 +49,8 @@
     font-family: serif;
     font-size: 20px;
     color: grey;
-    opacity: 0.6;
-}
-
-.text {
+    opacity: 0.6; }
+  .container .text {
     width: 250px;
     height: 200px;
     float: left;
@@ -79,5 +58,4 @@
     padding-left: 30px;
     padding-right: 20px;
     font-family: sans-serif;
-    opacity: 0.8;
-}
+    opacity: 0.8; }
