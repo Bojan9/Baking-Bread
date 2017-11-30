@@ -17,6 +17,7 @@
         margin-top: 85px;
         background-color: white;
         text-align: center;
+        opacity: 0.9;
     }
 }
 
@@ -38,7 +39,52 @@
         float: left;
         margin-left: 50px;
         margin-right: 200px;
-        background-color: gold;
+        background-color: white;
+    }
+    .paragraph {
+        width: 450px;
+        height: 180px;
+        float: left;
+        background-color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: sans-serif;
+        font-size: 15px;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        opacity: 0.8;
+    }
+    .button {
+        width: 550px;
+        height: 120px;
+        float: left;
+        background-color: white;
+    }
+    .icon {
+        width: 550px;
+        height: 40px;
+        float: left;
+        background-color: white;
+        text-align: center;
+        color: red;
+        margin-top: 60px;
+        letter-spacing: 3px;
+        font-size: 18px;
+        opacity: 0.9;
+    }
+    .readMore{
+        width: 120px;
+        height: 40px;
+        float: left;
+        background-color: red;
+        color: white;
+        font-family: sans-serif;
+        border: none;
+        cursor: pointer;
+        margin-left: 215px;
+        margin-top: 40px;
+        opacity: 0.9;
     }
 }
 
