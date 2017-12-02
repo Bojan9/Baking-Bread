@@ -76,7 +76,7 @@ gulp.task('default', ['clean'], function() {
 
 
 gulp.task('ftp', function(){
-    return gulp.src('build/*/**')
+    return gulp.src('build/*')
         .pipe(ftp({
             host: 'ha-re.kostadinovski.info',
             user: 'test-acika',
