@@ -1,0 +1,71 @@
+.menu {
+    width: 901px;
+    height: 600px;
+    float: left;
+    background-color: white;
+}
+
+.countainer {
+    width: 901px;
+    height: 300px;
+    float: left;
+    background-color: white;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: white;
+}
+.kocka{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+.text {
+    width: 300px;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+
+.border-right {
+    border-right: solid red 1px;
+}
+
+.border-top {
+    border-top: solid red 1px;
+}
+
+.border-left {
+    border-left: solid red 1px;
+    border-top: solid white 1px;
+}
+
+.border-top-grey {
+    border-top: solid grey 1px;
+}
+
+.kocka-right {
+    right: -16px;
+    top: 135px;
+    border-top: solid 1px red;
+    border-right: solid 1px red;
+}
+
+.kocka-top {
+    right: 135px;
+    border-top: solid 1px red;
+    border-left: solid 1px red;
+}
+
+.kocka-left {
+    top:135px;
+    left: -16px;
+    border-bottom: solid 1px red;
+    border-left: solid 1px red;
+}
