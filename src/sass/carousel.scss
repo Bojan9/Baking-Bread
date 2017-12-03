@@ -2,23 +2,27 @@
     width: 1400px;
     height: 800px;
     float: left;
-    background-color: red;
+    background-color: white;
 
     &__button {
         &-container {
             width: 5%;
             height: 90%;
             float: left;
-            background-color: green;
+            background-color: white;
             position: relative;
 
-            &__button{
+            &__button {
                 height: 50px;
                 width: 50px;
-                background-color: aqua;
+                background-color: darkorange;
                 position: absolute;
                 top: 50%;
                 transform: translate(0, -50%);
+                margin-left: 10px;
+                text-align: center;
+                font-size: 50px;
+                border-radius: 50%;
             }
         }
     }
@@ -27,16 +31,15 @@
         width: 90%;
         height: 90%;
         float: left;
-        background-color: yellow;
-        &-item{
+        background-color: white;
+        &-item {
             width: 100%;
             height: 100%;
             display: none;
 
-            &--active{
+            &--active {
                 display: block;
             }
-
         }
     }
 
@@ -44,6 +47,6 @@
         width: 100%;
         height: 10%;
         float: left;
-        background-color: orange;
+        background-color: darkorange;
     }
 }
