@@ -25,6 +25,4 @@ $(function(){
         currentElement.removeClass("gallery__image-item--active");
         nextElement.addClass("gallery__image-item--active");
     })
-
-
 })

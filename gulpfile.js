@@ -21,9 +21,9 @@ var gulp = require('gulp'),
 
 // Styles
 gulp.task('styles', function() {
-  return sass('src/sass/square.scss', { style: 'expanded' })
+  return sass('src/sass/tiles.scss', { style: 'expanded' })
     .pipe(autoprefixer('last 2 version'))
-    .pipe(gulp.dest('build/styles'))
+    .pipe(gulp.dest('src/sass'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(cssnano())
     .pipe(gulp.dest('build/styles'))

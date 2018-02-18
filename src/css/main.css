@@ -1,13 +1,13 @@
-.menu {
-    width: 901px;
-    height: 600px;
+.menu{
+    width: 1600px;
+    height: 800px;
     float: left;
-    background-color: white;
+    background-color: aqua;
 }
 
-.countainer {
+.container {
     width: 901px;
-    height: 300px;
+    height: 600px;
     float: left;
     background-color: white;
 }

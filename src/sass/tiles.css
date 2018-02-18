@@ -1,0 +1,16 @@
+.grid-item {
+  width: 100px; }
+
+.grid-item {
+  width: 150px;
+  border-radius: 3px;
+  background-color: #3d1e37; }
+
+.brickContainer {
+  position: relative;
+  width: 960px;
+  height: 1001px;
+  float: left; }
+
+.clearfix {
+  clear: both; }

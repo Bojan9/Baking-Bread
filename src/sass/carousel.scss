@@ -1,21 +1,21 @@
 .gallery {
-    width: 1400px;
+    width: 1600px;
     height: 800px;
     float: left;
-    background-color: white;
+    background-color: #ff6600;
 
     &__button {
         &-container {
             width: 5%;
             height: 90%;
             float: left;
-            background-color: white;
+            background-color: #ff6600;
             position: relative;
 
             &__button {
                 height: 50px;
                 width: 50px;
-                background-color: darkorange;
+                background-color: white;
                 position: absolute;
                 top: 50%;
                 transform: translate(0, -50%);
@@ -31,7 +31,7 @@
         width: 90%;
         height: 90%;
         float: left;
-        background-color: white;
+        background-color: #ff6600;
         &-item {
             width: 100%;
             height: 100%;
@@ -44,9 +44,18 @@
     }
 
     &__indicators {
-        width: 100%;
+        width: 900px;
         height: 10%;
         float: left;
-        background-color: darkorange;
+        background-color: #ff6600;
+        margin-left: 700px;
+        &__button{
+            width: 40px;
+            height: 40px;
+            float: left;
+            background-color: white;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
     }
 }

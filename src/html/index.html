@@ -4,44 +4,43 @@
 
 <head>
 
-    <script src="https://use.fontawesome.com/7c170cd744.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
 
     <title>Restorant</title>
 
     <link href="../css/main.css" rel="stylesheet" />
     <link href="../sass/square.css" rel="stylesheet" />
     <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../sass/tiles.css" rel="stylesheet" />
+    <link href="../sass/carousel.css" rel="stylesheet" />
 
 </head>
 
 <body>
-    <!--
-    <div class="menu">
-        <div class="countainer">
-            <div class="image">
-                <img src="../img/food-q-c-300-300-1.jpg">
-            </div>
-            <div class="text border-right">
-                <div class="kocka kocka-right"></div>
-            </div>
-            <div class="image">
-                <img src="../img/food-q-c-300-300-4.jpg">
-            </div>
+
+    <!--    Gallery-carousel    -->
+    <div class="gallery">
+        <div class="gallery__button-container gallery__button-container--left">
+            <div class="gallery__button-container__button" id="back">&lt;</div>
         </div>
-        <div class="countainer">
-            <div class="text border-top">
-                <div class=" kocka kocka-top"></div>
-            </div>
-            <div class="image border-top-grey">
-                <img src="../img/food-q-c-300-300-8.jpg">
-            </div>
-            <div class="text border-left">
-                <div class=" kocka kocka-left"></div>
-            </div>
+        <div class="gallery__image">
+            <img class="gallery__image-item" src="../img/car1.jpg">
+            <img class="gallery__image-item" src="../img/car2.jpg">
+            <img class="gallery__image-item" src="../img/car3.jpg">
+            <img class="gallery__image-item" src="../img/car4.jpg">
+        </div>
+        <div class="gallery__button-container gallery__button-container--right">
+            <div class="gallery__button-container__button" id="next">&gt;</div>
+        </div>
+        <div class="gallery__indicators">
+            <div class="gallery__indicators__button"></div>
+            <div class="gallery__indicators__button"></div>
+            <div class="gallery__indicators__button"></div>
+            <div class="gallery__indicators__button"></div>
         </div>
     </div>
--->
+    <div class="clearfix"></div>
+
 
     <!--    About    -->
     <div class="about">
@@ -72,12 +71,13 @@
                 </div>
             </div>
         </div>
-        <div class="footer">
-
-        </div>
+        <div class="footer"></div>
     </div>
+    <div class="clearfix"></div>
 
-    <!--    BEM    -->
+
+    <!--    Kocki    -->
+    <div class="menu">
     <div class="container">
         <div class="container__box">
             <img src="../img/food-q-c-300-300-1.jpg">
@@ -104,10 +104,59 @@
             <div class="container__box--square left"></div>
         </div>
     </div>
+        </div>
+    <div class="clearfix"></div>
+
+
+    <!--    Brick    -->
+    <div class="brickContainer">
+        <div class="grid-item" style="height:100px;" data-packed>
+            <img src="http://lorempixel.com/150/100/">
+        </div>
+        <div class="grid-item" style="height:150px;" data-packed>
+            <img src="http://lorempixel.com/150/150/">
+        </div>
+        <div class="grid-item" style="height:200px;" data-packed>
+            <img src="http://lorempixel.com/150/200/">
+        </div>
+        <div class="grid-item" style="height:200;" data-packed>
+            <img src="http://lorempixel.com/150/200/">
+        </div>
+        <div class="grid-item" style="height:100px;" data-packed>
+            <img src="http://lorempixel.com/150/100/">
+        </div>
+        <div class="grid-item" style="height:150px;" data-packed>
+            <img src="http://lorempixel.com/150/150/">
+        </div>
+        <div class="grid-item" style="height:100px;" data-packed>
+            <img src="http://lorempixel.com/150/100/">
+        </div>
+        <div class="grid-item" style="height:200px;" data-packed>
+            <img src="http://lorempixel.com/150/200/">
+        </div>
+        <div class="grid-item" style="height:150px;" data-packed>
+            <img src="http://lorempixel.com/150/150/">
+        </div>
+        <div class="grid-item" style="height:200px;" data-packed>
+            <img src="http://lorempixel.com/150/200/">
+        </div>
+        <div class="grid-item" style="height:100px;" data-packed>
+            <img src="http://lorempixel.com/150/100/">
+        </div>
+        <div class="grid-item" style="height:150px;" data-packed>
+            <img src="http://lorempixel.com/150/150/">
+        </div>
+    </div>
+    <div class="clearfix"></div>
 
 
 </body>
 
+<script src="https://use.fontawesome.com/7c170cd744.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 <script src="../js/main.js"></script>
+<script src="../../node_modules/bricks.js/dist/bricks.js"></script>
+<script src="../js/bricks.js"></script>
+<script src="../js/carousel.js"></script>
 
 </html>
