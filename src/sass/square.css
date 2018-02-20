@@ -83,14 +83,31 @@
   float: left;
   background-color: white; }
 
-.container {
-  width: 901px;
-  height: 600px;
+.menu {
+  width: 1600px;
+  height: 900px;
+  float: left;
+  background-color: white; }
+
+.menuText {
+  width: 1600px;
+  height: 100px;
+  float: left;
   background-color: white;
-  float: left; }
+  text-align: center;
+  opacity: 0.9;
+  margin-top: 50px; }
+
+.container {
+  width: 751px;
+  height: 500px;
+  background-color: white;
+  float: left;
+  margin-left: 200px;
+  margin-top: 150px; }
   .container__box {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-color: white;
     float: left;
     position: relative; }
@@ -123,8 +140,8 @@
   .container .border_left {
     border-left: solid 1px red; }
   .container .title {
-    width: 270px;
-    height: 85px;
+    width: 220px;
+    height: 75px;
     float: left;
     z-index: 6;
     padding-top: 15px;
@@ -136,11 +153,65 @@
     color: grey;
     opacity: 0.6; }
   .container .text {
-    width: 250px;
-    height: 200px;
+    width: 195px;
+    height: 180px;
     float: left;
     z-index: 6;
     padding-left: 30px;
     padding-right: 20px;
     font-family: sans-serif;
     opacity: 0.8; }
+
+.menuRight {
+  width: 449px;
+  height: 650px;
+  float: left;
+  background-color: red; }
+  .menuRight__top {
+    width: 429px;
+    height: 100px;
+    float: left;
+    letter-spacing: 2px;
+    font-family: serif;
+    font-size: 35px;
+    color: white;
+    margin-left: 20px; }
+  .menuRight__text {
+    width: 429px;
+    height: 150px;
+    float: left;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 20px;
+    font-size: 15px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    line-height: 1.2; }
+  .menuRight__button {
+    width: 449px;
+    height: 50px;
+    float: left; }
+  .menuRight__bottom {
+    width: 449px;
+    height: 50px;
+    float: left;
+    letter-spacing: 2px;
+    font-family: serif;
+    color: white;
+    margin-left: 20px; }
+  .menuRight__list {
+    width: 449px;
+    height: 300px;
+    float: left;
+    background-color: aqua; }
+
+.menuButton {
+  width: 200px;
+  height: 40px;
+  float: left;
+  background-color: white;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 125px;
+  color: black; }
