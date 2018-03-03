@@ -163,12 +163,12 @@
     opacity: 0.8; }
 
 .menuRight {
-  width: 449px;
+  width: 380px;
   height: 650px;
   float: left;
   background-color: red; }
   .menuRight__top {
-    width: 429px;
+    width: 360px;
     height: 100px;
     float: left;
     letter-spacing: 2px;
@@ -177,41 +177,42 @@
     color: white;
     margin-left: 20px; }
   .menuRight__text {
-    width: 429px;
+    width: 360px;
     height: 150px;
     float: left;
     font-family: sans-serif;
     color: white;
     margin-left: 20px;
     font-size: 15px;
-    opacity: 0.8;
     letter-spacing: 1px;
     line-height: 1.2; }
   .menuRight__button {
-    width: 449px;
+    width: 360px;
     height: 50px;
-    float: left; }
+    float: left;
+    margin-left: 20px; }
   .menuRight__bottom {
-    width: 449px;
+    width: 360px;
     height: 50px;
     float: left;
     letter-spacing: 2px;
     font-family: serif;
     color: white;
-    margin-left: 20px; }
+    margin-left: 20px;
+    font-weight: bold; }
   .menuRight__list {
-    width: 449px;
+    width: 340px;
     height: 300px;
     float: left;
-    background-color: aqua; }
+    margin-left: 20px;
+    color: white;
+    font-family: sans-serif; }
 
-.menuButton {
-  width: 200px;
+.buttonKocki {
+  width: 260px;
   height: 40px;
   float: left;
   background-color: white;
   font-family: sans-serif;
-  cursor: pointer;
-  border-radius: 5px;
-  margin-left: 125px;
-  color: black; }
+  border: none;
+  cursor: pointer; }

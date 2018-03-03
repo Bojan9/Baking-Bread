@@ -19,7 +19,8 @@
       margin-left: 10px;
       text-align: center;
       font-size: 50px;
-      border-radius: 50%; }
+      border-radius: 50%;
+      cursor: pointer; }
   .gallery__image {
     width: 90%;
     height: 90%;
