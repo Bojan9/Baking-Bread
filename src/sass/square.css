@@ -216,3 +216,59 @@
   font-family: sans-serif;
   border: none;
   cursor: pointer; }
+
+.reservation {
+  width: 1600px;
+  height: 900px;
+  float: left;
+  background-color: white; }
+  .reservation__title {
+    width: 460px;
+    height: 100px;
+    float: left;
+    margin-left: 580px;
+    margin-top: 85px;
+    background-color: white;
+    text-align: center;
+    opacity: 0.9; }
+  .reservation__container {
+    width: 1200px;
+    height: 700px;
+    float: left;
+    margin-left: 200px;
+    background-image: url(../img/Signatures-web-1200x700.jpg); }
+  .reservation__smallContainer {
+    width: 270px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 75px;
+    float: left;
+    border: white 1px solid;
+    padding-top: 30px;
+    padding-left: 30px; }
+  .reservation__bigContainer {
+    width: 1020px;
+    height: 220px;
+    margin-top: 60px;
+    margin-left: 75px;
+    float: left;
+    border: white 1px solid;
+    padding-top: 30px;
+    padding-left: 30px; }
+  .reservation__button {
+    width: 120px;
+    height: 40px;
+    margin-top: 55px;
+    margin-left: 540px;
+    float: left; }
+
+.reservationB {
+  width: 120px;
+  height: 40px;
+  float: left;
+  background-color: red;
+  color: white;
+  font-family: sans-serif;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9; }
