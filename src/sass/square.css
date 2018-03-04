@@ -272,3 +272,56 @@
   border: none;
   cursor: pointer;
   opacity: 0.9; }
+
+.blog {
+  width: 1600px;
+  height: 1200px;
+  float: left;
+  background-color: white; }
+  .blog__title {
+    width: 1200px;
+    height: 100px;
+    float: left;
+    background-image: url(../img/spa_banner2-1200x100.jpg);
+    margin-left: 200px;
+    text-align: center;
+    opacity: 0.9; }
+  .blog__container {
+    width: 1200px;
+    height: 500px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px; }
+  .blog__date {
+    width: 100px;
+    height: 150px;
+    float: left;
+    background-color: red;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 5px; }
+  .blog__header {
+    width: 800px;
+    height: 60px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    opacity: 0.9; }
+  .blog__image {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-image: url(../img/blog.jpg);
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 5px; }
+  .blog__text {
+    width: 450px;
+    height: 300px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-indent: 20px; }
