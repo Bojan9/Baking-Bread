@@ -1,0 +1,350 @@
+.row {
+  width: 1280px;
+  height: 380px;
+  margin: 0 auto; }
+
+.row50 {
+  height: 280px;
+  margin-top: 10px; }
+
+.column {
+  float: left;
+  width: 29.33%;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  margin-right: 2%;
+  margin-left: 2%;
+  height: 300px; }
+
+.column50 {
+  width: 46%;
+  position: relative;
+  height: 250px; }
+
+.column img:hover {
+  transform: scale(1.1); }
+
+.column img {
+  transition: transform .5s; }
+
+.column a {
+  text-decoration: none; }
+
+.columnMiddle {
+  margin-left: 451.5px; }
+
+.column h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Bowlby One SC', cursive; }
+
+.column h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Bowlby One SC', cursive;
+  color: black;
+  opacity: 0.9;
+  margin-top: 10px; }
+
+.menuh2 {
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Bowlby One SC', cursive;
+  text-decoration: underline;
+  margin-top: 30px;
+  letter-spacing: 3px; }
+
+.column button {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  outline: none;
+  background-color: #ff751a;
+  color: white;
+  font-size: 20px;
+  font-family: 'Staatliches', cursive;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer; }
+
+.column h3 {
+  text-align: center;
+  display: block;
+  float: left; }
+
+.nav {
+  background-color: #ff751a;
+  height: 80px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+  z-index: 1; }
+
+.nav li {
+  display: inline; }
+
+.nav li a {
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 30px;
+  color: white;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 80px; }
+
+.nav li input {
+  height: 30px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  font-size: 20px;
+  outline: none;
+  color: #803300;
+  background-color: transparent;
+  border: 1px solid white;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold; }
+
+.nav li input::placeholder {
+  color: white; }
+
+.nav li input:focus {
+  outline: none; }
+
+.nav li a:hover {
+  color: #803300; }
+
+.logo {
+  margin: 0 auto;
+  display: block; }
+
+.menuCarousel {
+  margin: 0 auto;
+  background-color: #e6e6e6;
+  border-bottom: 40px solid #ff751a; }
+
+.menuCarousel ul {
+  height: 140px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+  width: 1600px; }
+
+.menuCarousel li {
+  display: inline; }
+
+.menuCarousel li a {
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 30px;
+  color: white;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 100px;
+  height: 100px;
+  transition: transform .5s; }
+
+.menuCarousel li a:hover {
+  transform: scale(1.2); }
+
+.menuCarousel li figcaption {
+  height: 20px;
+  font-size: 16px;
+  color: black;
+  margin-top: -35px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold; }
+
+.main {
+  width: 1600px;
+  height: 1160px;
+  margin: 0 auto; }
+
+.image--mainSmall {
+  float: left;
+  width: 780px;
+  height: 500px;
+  margin-top: 40px;
+  position: relative; }
+
+#marginright {
+  margin-right: 40px; }
+
+.image--mainBig {
+  float: left;
+  width: 1600px;
+  height: 580px;
+  margin-top: 40px;
+  position: relative; }
+
+.btnLink {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ff751a;
+  color: white;
+  font-size: 20px;
+  font-family: 'Bowlby One SC', cursive;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none; }
+
+.btnLink:hover {
+  background-color: white;
+  color: #ff751a; }
+
+.mainBlog {
+  width: 1600px;
+  height: 570px;
+  margin: 0 auto;
+  background-color: #e6e6e6;
+  margin-top: 50px; }
+
+.image--blogLarge {
+  float: left;
+  width: 760px;
+  height: 330px;
+  margin-top: 20px;
+  padding: 10px;
+  box-sizing: border-box; }
+
+.image--blogSmall {
+  float: left;
+  width: 370px;
+  height: 330px;
+  margin-top: 20px;
+  padding: 10px;
+  box-sizing: border-box; }
+
+#marginrightBlog {
+  margin-right: 20px; }
+
+.mainBlog h1 {
+  color: black;
+  font-size: 30px;
+  font-family: 'Rubik', sans-serif;
+  margin-top: 24px;
+  font-weight: bold; }
+
+.mainBlog h2 {
+  color: black;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  margin-top: 10px; }
+
+.mainBlog button {
+  height: 40px;
+  width: 150px;
+  color: white;
+  background-color: #ff751a;
+  margin-top: 10px;
+  border: 1px solid #ff751a;
+  border-radius: 25px;
+  outline: none;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  cursor: pointer; }
+
+.mainBlog button:hover {
+  background-color: white;
+  color: #ff751a; }
+
+.footerborder {
+  border-top: 10px solid #ff751a;
+  border-bottom: 10px solid #ff751a;
+  margin-top: 50px;
+  z-index: 1; }
+
+.footer {
+  width: 1600px;
+  height: 350px;
+  margin: 0 auto;
+  background-color: white;
+  z-index: 1; }
+
+.footerLogo {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-left: 90px; }
+
+.footerUl {
+  width: 260px;
+  height: 250px;
+  float: left;
+  margin-right: 100px;
+  margin-top: 50px; }
+
+.footerSocialMedia {
+  width: 400px;
+  height: 200px;
+  float: left;
+  margin-top: 100px; }
+
+.footer h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  letter-spacing: 4px;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 10px 10px; }
+
+.footerUl li a {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: black; }
+
+.footerUl li {
+  padding: 3px 10px; }
+
+.smCircle {
+  height: 50px;
+  width: 50px;
+  background-color: #ff751a;
+  border: 1px #ff751a solid;
+  border-radius: 50%;
+  float: left;
+  color: white;
+  margin-left: 10px; }
+
+.smCircle:hover {
+  background-color: white;
+  border: 1px white solid;
+  color: #ff751a; }
+
+.smCircle i {
+  margin-top: 10px;
+  margin-left: 12.5px;
+  font-size: 30px; }
+
+#googlemaps {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0; }
+
+#contactform {
+  position: relative;
+  z-index: 1;
+  width: 1600px;
+  margin: 0 auto;
+  color: white; }

@@ -1,0 +1,87 @@
+.row {
+    width: 1280px;
+    height: 380px;
+    margin: 0 auto;
+}
+
+.row50{
+    height: 280px;
+    margin-top: 10px;
+}
+
+.column {
+    float: left;
+    width: 29.33%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    margin-right: 2%;
+    margin-left: 2%;
+    height: 300px;
+}
+
+.column50 {
+    width: 46%;
+    position: relative;
+    height: 250px;
+}
+
+.column img:hover {
+    transform: scale(1.1);
+}
+
+.column img {
+    transition: transform .5s;
+}
+
+.column a {
+    text-decoration: none;
+}
+
+.columnMiddle {
+    margin-left: 451.5px;
+}
+
+.column h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.column h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    color: black;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+.menuh2 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    text-decoration: underline;
+    margin-top: 30px;
+    letter-spacing: 3px;
+}
+
+.column button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    outline: none;
+    background-color: #ff751a;
+    color: white;
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+}
+.column h3{
+    text-align: center;
+    display: block;
+    float: left;
+}
